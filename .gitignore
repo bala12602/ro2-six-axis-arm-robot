@@ -1,0 +1,70 @@
+# ROS2 build directories
+build/
+install/
+log/
+
+# Colcon generated files
+.colcon_cd_root
+.colcon/
+
+# Python compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.settings/
+.project
+.cproject
+.pydevproject
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# ROS2 specific
+ros2.log
+.ros/
+.catkin_tools/
+.catkin_workspace
+
+# Dependencies
+/src/CMakeLists.txt
+
+# Generated message files
+*_msgs/msg/*
+*_msgs/srv/*
+*_msgs/action/*
+# Generated documentation
+doc/html/
+doc/latex/
+
+# System specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+
+# Test results
+test_results/
+coverage_results/
+
+# Temporary files
+temp/
+tmp/
